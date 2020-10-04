@@ -10,3 +10,5 @@ def word_count():
         except FileNotFoundError:
             print("Livro não encontrado!\n")
         opcao = int(input("1 - Para Pesquisar novamente: \n2 - Para encerrar o programa: "))
+
+word_count()
